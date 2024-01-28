@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    width: auto;
+    height: 80px;
+    margin: 0px;
+}
+.logo{
+    margin-left: 50px;
+    font-size:30px;
+    font-family: 'Honk', system-ui;
+}
+.nav{
+
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav li{
+    margin-right: 60px;
+    font-family: 'Sixtyfour', sans-serif;
+}
+.body{
+background-color: orange;
+width: 100%;
+height: auto;
+padding: auto;
+}
+.body a img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.footer{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    width: 30%;
+    height: 100%;
+}
+.textcopy{
+    color: white;
+}
+.copy .logo{
+    margin: 0px;
+}
+.social{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.social img{
+    width: 40px;
+    margin-left: 30px;
+}
